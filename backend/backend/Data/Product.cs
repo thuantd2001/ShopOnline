@@ -17,6 +17,6 @@
 
         public ICollection<Color> Colors { get; set; }
         public ICollection<ProductImage> ProductImages { get; set; }
-        public ICollection<Quatity> Quatities { get; set; }
+        public ICollection<Quantity> Quantities { get; set; }
     }
 }

@@ -1,8 +1,8 @@
 ﻿namespace backend.Data
 {
-    public class Quatity
+    public class Quantity
     {
-        public int QuatityOfProduct { get; set; }
+        public int QuantityOfProduct { get; set; }
 
         public int SizeId { get; set; }
         public Guid ProductId { get; set; }

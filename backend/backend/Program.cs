@@ -9,7 +9,7 @@ builder.Services.AddControllers();
 
 builder.Services.AddDbContext<ShopOnlineContext>(option =>
 
-    option.UseSqlServer(builder.Configuration.GetConnectionString("ShopOnline"));
+    { option.UseSqlServer(builder.Configuration.GetConnectionString("ShopOnline")); }
 );
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
